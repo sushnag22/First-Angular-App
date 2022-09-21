@@ -1,10 +1,24 @@
 import { Component } from '@angular/core';
 
-@Component({
+@Component({ // @decorator - makes this TS class a component
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+
+  <!-- bind property to HTML in the template-->
+  <p>{{ count }}</p>
+
+<!--  event binding-->
+  <button (click)="like()"> 👍 </button>
+
+`
 })
 export class AppComponent {
-  title = 'First-Angular-App';
+
+  count = 0; // property is considered reactive state & when values change, the component re-renders the UI
+
+  like() {
+
+    this.count++;
+
+  }
 }
