@@ -1,6 +1,11 @@
 # FirstAngularApp
 
+## Demo
+![like](https://user-images.githubusercontent.com/74103829/191574098-20190f0b-5581-4f14-ad30-4231fa521f0a.gif)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.3.
+
 
 ## Development server
 
